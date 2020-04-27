@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="ipad10_2" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aBG-Ae-0aU">
+                                <rect key="frame" x="476" y="20" width="128" height="30"/>
+                                <state key="normal" title="Execute"/>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aaT-P8-zW1">
+                                <rect key="frame" x="0.0" y="58" width="540" height="752"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="540" id="zbR-mR-13m"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D3Y-XO-9MB">
+                                <rect key="frame" x="540" y="58" width="540" height="752"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xk6-Pp-PBj">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="GXe-HA-fuH">
+                                    <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="systemUltraThinMaterial"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="xk6-Pp-PBj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="0dJ-Mh-1YL"/>
+                            <constraint firstItem="aBG-Ae-0aU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="476" id="8vf-rx-Sj6"/>
+                            <constraint firstItem="xk6-Pp-PBj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="EV6-HV-qel"/>
+                            <constraint firstItem="aaT-P8-zW1" firstAttribute="top" secondItem="D3Y-XO-9MB" secondAttribute="top" id="FDD-GS-T5N"/>
+                            <constraint firstItem="xk6-Pp-PBj" firstAttribute="bottom" secondItem="aaT-P8-zW1" secondAttribute="bottom" id="Jzw-LP-n2P"/>
+                            <constraint firstItem="aaT-P8-zW1" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="SiS-ne-Lxg"/>
+                            <constraint firstItem="xk6-Pp-PBj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Xrx-Sa-bzT"/>
+                            <constraint firstItem="aaT-P8-zW1" firstAttribute="top" secondItem="aBG-Ae-0aU" secondAttribute="bottom" constant="8" id="afo-7a-Bh5"/>
+                            <constraint firstItem="xk6-Pp-PBj" firstAttribute="bottom" secondItem="D3Y-XO-9MB" secondAttribute="bottom" id="gZ5-gK-Xvg"/>
+                            <constraint firstItem="xk6-Pp-PBj" firstAttribute="centerX" secondItem="aBG-Ae-0aU" secondAttribute="centerX" id="gid-AT-DSt"/>
+                            <constraint firstItem="D3Y-XO-9MB" firstAttribute="leading" secondItem="aaT-P8-zW1" secondAttribute="trailing" id="huK-br-YZ7"/>
+                            <constraint firstItem="aBG-Ae-0aU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="mq4-64-aZP"/>
+                            <constraint firstItem="xk6-Pp-PBj" firstAttribute="trailing" secondItem="D3Y-XO-9MB" secondAttribute="trailing" id="wio-O8-9q4"/>
+                            <constraint firstItem="xk6-Pp-PBj" firstAttribute="leading" secondItem="aaT-P8-zW1" secondAttribute="leading" id="xxm-4V-2hT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.777777777777779" y="374.81481481481478"/>
+        </scene>
+    </scenes>
+</document>

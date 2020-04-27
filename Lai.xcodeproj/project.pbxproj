@@ -1,0 +1,1209 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7255F982449A2E000951944 /* JavaScript.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255F972449A2E000951944 /* JavaScript.m */; };
+		B78AD04D2447FF6E003E2262 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B78AD04C2447FF6E003E2262 /* AppDelegate.m */; };
+		B78AD0502447FF6E003E2262 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B78AD04F2447FF6E003E2262 /* SceneDelegate.m */; };
+		B78AD0532447FF6E003E2262 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B78AD0522447FF6E003E2262 /* ViewController.m */; };
+		B78AD0562447FF6E003E2262 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0542447FF6E003E2262 /* Main.storyboard */; };
+		B78AD0582447FF6F003E2262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0572447FF6F003E2262 /* Assets.xcassets */; };
+		B78AD05B2447FF6F003E2262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0592447FF6F003E2262 /* LaunchScreen.storyboard */; };
+		B78AD05E2447FF6F003E2262 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B78AD05D2447FF6F003E2262 /* main.m */; };
+		B78AD0682447FF70003E2262 /* OpenIDETests.m in Sources */ = {isa = PBXBuildFile; fileRef = B78AD0672447FF70003E2262 /* OpenIDETests.m */; };
+		B78AD0732447FF70003E2262 /* OpenIDEUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B78AD0722447FF70003E2262 /* OpenIDEUITests.m */; };
+		B78AD0BD244800FF003E2262 /* lcode.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD082244800FB003E2262 /* lcode.c */; };
+		B78AD0BE244800FF003E2262 /* lzio.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD083244800FB003E2262 /* lzio.c */; };
+		B78AD0C0244800FF003E2262 /* ldump.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD086244800FC003E2262 /* ldump.c */; };
+		B78AD0C1244800FF003E2262 /* ldo.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD089244800FC003E2262 /* ldo.c */; };
+		B78AD0C2244800FF003E2262 /* lstrlib.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD08B244800FC003E2262 /* lstrlib.c */; };
+		B78AD0C3244800FF003E2262 /* liolib.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD08D244800FC003E2262 /* liolib.c */; };
+		B78AD0C4244800FF003E2262 /* ltablib.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD08E244800FC003E2262 /* ltablib.c */; };
+		B78AD0C5244800FF003E2262 /* lcorolib.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD08F244800FC003E2262 /* lcorolib.c */; };
+		B78AD0C6244800FF003E2262 /* lobject.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD090244800FC003E2262 /* lobject.c */; };
+		B78AD0C7244800FF003E2262 /* lvm.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD094244800FC003E2262 /* lvm.c */; };
+		B78AD0C8244800FF003E2262 /* loadlib.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD098244800FC003E2262 /* loadlib.c */; };
+		B78AD0C9244800FF003E2262 /* ltable.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD099244800FC003E2262 /* ltable.c */; };
+		B78AD0CA244800FF003E2262 /* lctype.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD09A244800FC003E2262 /* lctype.c */; };
+		B78AD0CB244800FF003E2262 /* ldebug.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD09B244800FC003E2262 /* ldebug.c */; };
+		B78AD0CC244800FF003E2262 /* lauxlib.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD09C244800FC003E2262 /* lauxlib.c */; };
+		B78AD0CD244800FF003E2262 /* lopcodes.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD09E244800FD003E2262 /* lopcodes.c */; };
+		B78AD0CE244800FF003E2262 /* lmem.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD0A4244800FD003E2262 /* lmem.c */; };
+		B78AD0CF244800FF003E2262 /* ldblib.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD0A7244800FD003E2262 /* ldblib.c */; };
+		B78AD0D0244800FF003E2262 /* lutf8lib.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD0A9244800FD003E2262 /* lutf8lib.c */; };
+		B78AD0D1244800FF003E2262 /* loslib.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD0AB244800FE003E2262 /* loslib.c */; };
+		B78AD0D2244800FF003E2262 /* lbaselib.m in Sources */ = {isa = PBXBuildFile; fileRef = B78AD0AD244800FE003E2262 /* lbaselib.m */; };
+		B78AD0D3244800FF003E2262 /* lundump.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD0B0244800FE003E2262 /* lundump.c */; };
+		B78AD0D4244800FF003E2262 /* lfunc.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD0B1244800FE003E2262 /* lfunc.c */; };
+		B78AD0D5244800FF003E2262 /* lbitlib.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD0B2244800FE003E2262 /* lbitlib.c */; };
+		B78AD0D6244800FF003E2262 /* ltm.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD0B3244800FE003E2262 /* ltm.c */; };
+		B78AD0D7244800FF003E2262 /* lgc.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD0B4244800FE003E2262 /* lgc.c */; };
+		B78AD0D8244800FF003E2262 /* lparser.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD0B5244800FE003E2262 /* lparser.c */; };
+		B78AD0D9244800FF003E2262 /* lstring.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD0B6244800FE003E2262 /* lstring.c */; };
+		B78AD0DA244800FF003E2262 /* linit.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD0B7244800FE003E2262 /* linit.c */; };
+		B78AD0DB244800FF003E2262 /* lapi.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD0B8244800FF003E2262 /* lapi.c */; };
+		B78AD0DC244800FF003E2262 /* lstate.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD0B9244800FF003E2262 /* lstate.c */; };
+		B78AD0DD244800FF003E2262 /* llex.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD0BA244800FF003E2262 /* llex.c */; };
+		B78AD0DE244800FF003E2262 /* lmathlib.c in Sources */ = {isa = PBXBuildFile; fileRef = B78AD0BC244800FF003E2262 /* lmathlib.c */; };
+		B78AD0E524480C22003E2262 /* RegexHighlightView.m in Sources */ = {isa = PBXBuildFile; fileRef = B78AD0E324480C22003E2262 /* RegexHighlightView.m */; };
+		B78AD13C24480C2E003E2262 /* asm-mips.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0E924480C2D003E2262 /* asm-mips.plist */; };
+		B78AD13D24480C2E003E2262 /* metaslang.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0EA24480C2D003E2262 /* metaslang.plist */; };
+		B78AD13E24480C2E003E2262 /* vhdl.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0EB24480C2D003E2262 /* vhdl.plist */; };
+		B78AD13F24480C2E003E2262 /* tcltk.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0EC24480C2D003E2262 /* tcltk.plist */; };
+		B78AD14024480C2E003E2262 /* rhtml.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0ED24480C2D003E2262 /* rhtml.plist */; };
+		B78AD14124480C2E003E2262 /* lisp.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0EE24480C2D003E2262 /* lisp.plist */; };
+		B78AD14224480C2E003E2262 /* sql.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0EF24480C2D003E2262 /* sql.plist */; };
+		B78AD14324480C2E003E2262 /* none.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0F024480C2D003E2262 /* none.plist */; };
+		B78AD14424480C2E003E2262 /* pdf.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0F124480C2D003E2262 /* pdf.plist */; };
+		B78AD14524480C2E003E2262 /* shell.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0F224480C2D003E2262 /* shell.plist */; };
+		B78AD14624480C2E003E2262 /* cpp.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0F324480C2D003E2262 /* cpp.plist */; };
+		B78AD14724480C2E003E2262 /* eiffel.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0F424480C2D003E2262 /* eiffel.plist */; };
+		B78AD14824480C2E003E2262 /* standard.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0F524480C2D003E2262 /* standard.plist */; };
+		B78AD14924480C2E003E2262 /* fortran.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0F624480C2D003E2262 /* fortran.plist */; };
+		B78AD14A24480C2E003E2262 /* xml.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0F724480C2D003E2262 /* xml.plist */; };
+		B78AD14B24480C2E003E2262 /* d.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0F824480C2D003E2262 /* d.plist */; };
+		B78AD14C24480C2E003E2262 /* logtalk.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0F924480C2D003E2262 /* logtalk.plist */; };
+		B78AD14D24480C2E003E2262 /* idl.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0FA24480C2D003E2262 /* idl.plist */; };
+		B78AD14E24480C2E003E2262 /* metapost.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0FB24480C2D003E2262 /* metapost.plist */; };
+		B78AD14F24480C2E003E2262 /* asp-vb.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0FC24480C2D003E2262 /* asp-vb.plist */; };
+		B78AD15024480C2E003E2262 /* header.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0FD24480C2E003E2262 /* header.plist */; };
+		B78AD15124480C2E003E2262 /* eztpl.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0FE24480C2E003E2262 /* eztpl.plist */; };
+		B78AD15224480C2E003E2262 /* prolog.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD0FF24480C2E003E2262 /* prolog.plist */; };
+		B78AD15324480C2E003E2262 /* objectivecaml.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD10024480C2E003E2262 /* objectivecaml.plist */; };
+		B78AD15424480C2E003E2262 /* apache.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD10124480C2E003E2262 /* apache.plist */; };
+		B78AD15524480C2E003E2262 /* gedcom.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD10224480C2E003E2262 /* gedcom.plist */; };
+		B78AD15624480C2E003E2262 /* nemerle.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD10324480C2E003E2262 /* nemerle.plist */; };
+		B78AD15724480C2E003E2262 /* batch.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD10424480C2E003E2262 /* batch.plist */; };
+		B78AD15824480C2E003E2262 /* asm-x86.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD10524480C2E003E2262 /* asm-x86.plist */; };
+		B78AD15924480C2E003E2262 /* ruby.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD10624480C2E003E2262 /* ruby.plist */; };
+		B78AD15A24480C2E003E2262 /* matlab.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD10724480C2E003E2262 /* matlab.plist */; };
+		B78AD15B24480C2E003E2262 /* latex.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD10824480C2E003E2262 /* latex.plist */; };
+		B78AD15C24480C2E003E2262 /* actionscript.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD10924480C2E003E2262 /* actionscript.plist */; };
+		B78AD15D24480C2E003E2262 /* postscript.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD10A24480C2E003E2262 /* postscript.plist */; };
+		B78AD15E24480C2E003E2262 /* vb.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD10B24480C2E003E2262 /* vb.plist */; };
+		B78AD15F24480C2E003E2262 /* csound.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD10C24480C2E003E2262 /* csound.plist */; };
+		B78AD16024480C2E003E2262 /* scala.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD10D24480C2E003E2262 /* scala.plist */; };
+		B78AD16124480C2E003E2262 /* plist.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD10E24480C2E003E2262 /* plist.plist */; };
+		B78AD16224480C2E003E2262 /* java.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD10F24480C2E003E2262 /* java.plist */; };
+		B78AD16324480C2E003E2262 /* actionscript3.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD11024480C2E003E2262 /* actionscript3.plist */; };
+		B78AD16424480C2E003E2262 /* ampl.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD11124480C2E003E2262 /* ampl.plist */; };
+		B78AD16524480C2E003E2262 /* coldfusion.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD11224480C2E003E2262 /* coldfusion.plist */; };
+		B78AD16624480C2E003E2262 /* sml.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD11324480C2E003E2262 /* sml.plist */; };
+		B78AD16724480C2E003E2262 /* c.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD11424480C2E003E2262 /* c.plist */; };
+		B78AD16824480C2E003E2262 /* mysql.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD11524480C2E003E2262 /* mysql.plist */; };
+		B78AD16924480C2E003E2262 /* mel.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD11624480C2E003E2262 /* mel.plist */; };
+		B78AD16A24480C2E003E2262 /* javascript.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD11724480C2E003E2262 /* javascript.plist */; };
+		B78AD16B24480C2E003E2262 /* udo.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD11824480C2E003E2262 /* udo.plist */; };
+		B78AD16C24480C2E003E2262 /* verilog.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD11924480C2E003E2262 /* verilog.plist */; };
+		B78AD16D24480C2E003E2262 /* lsl.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD11A24480C2E003E2262 /* lsl.plist */; };
+		B78AD16E24480C2E003E2262 /* perl.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD11B24480C2E003E2262 /* perl.plist */; };
+		B78AD16F24480C2E003E2262 /* lua.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD11C24480C2E003E2262 /* lua.plist */; };
+		B78AD17024480C2E003E2262 /* ox.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD11D24480C2E003E2262 /* ox.plist */; };
+		B78AD17124480C2E003E2262 /* freefem.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD11E24480C2E003E2262 /* freefem.plist */; };
+		B78AD17224480C2E003E2262 /* pascal.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD11F24480C2E003E2262 /* pascal.plist */; };
+		B78AD17324480C2E003E2262 /* lilypond.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD12024480C2E003E2262 /* lilypond.plist */; };
+		B78AD17424480C2E003E2262 /* asp-js.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD12124480C2E003E2262 /* asp-js.plist */; };
+		B78AD17524480C2E003E2262 /* haskell.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD12224480C2E003E2262 /* haskell.plist */; };
+		B78AD17624480C2E003E2262 /* sgml.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD12324480C2E003E2262 /* sgml.plist */; };
+		B78AD17724480C2E003E2262 /* aspdotnet-cs.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD12424480C2E003E2262 /* aspdotnet-cs.plist */; };
+		B78AD17824480C2E003E2262 /* jsp.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD12524480C2E003E2262 /* jsp.plist */; };
+		B78AD17924480C2E003E2262 /* supercollider.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD12624480C2E003E2262 /* supercollider.plist */; };
+		B78AD17A24480C2E003E2262 /* cobol.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD12724480C2E003E2262 /* cobol.plist */; };
+		B78AD17B24480C2E003E2262 /* ada.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD12824480C2E003E2262 /* ada.plist */; };
+		B78AD17C24480C2E003E2262 /* python.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD12924480C2E003E2262 /* python.plist */; };
+		B78AD17D24480C2E003E2262 /* r.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD12A24480C2E003E2262 /* r.plist */; };
+		B78AD17E24480C2E003E2262 /* php.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD12B24480C2E003E2262 /* php.plist */; };
+		B78AD17F24480C2E003E2262 /* awk.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD12C24480C2E003E2262 /* awk.plist */; };
+		B78AD18024480C2E003E2262 /* objectivec.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD12D24480C2E003E2262 /* objectivec.plist */; };
+		B78AD18124480C2E003E2262 /* nrnhoc.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD12E24480C2E003E2262 /* nrnhoc.plist */; };
+		B78AD18224480C2E003E2262 /* javafx.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD12F24480C2E003E2262 /* javafx.plist */; };
+		B78AD18324480C2E003E2262 /* applescript.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD13024480C2E003E2262 /* applescript.plist */; };
+		B78AD18424480C2E003E2262 /* csharp.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD13124480C2E003E2262 /* csharp.plist */; };
+		B78AD18524480C2E003E2262 /* html.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD13224480C2E003E2262 /* html.plist */; };
+		B78AD18624480C2E003E2262 /* template.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD13324480C2E003E2262 /* template.plist */; };
+		B78AD18724480C2E003E2262 /* active4d.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD13424480C2E003E2262 /* active4d.plist */; };
+		B78AD18824480C2E003E2262 /* aspdotnet-vb.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD13524480C2E003E2262 /* aspdotnet-vb.plist */; };
+		B78AD18924480C2E003E2262 /* gnuassembler.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD13624480C2E003E2262 /* gnuassembler.plist */; };
+		B78AD18A24480C2E003E2262 /* stata.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD13724480C2E003E2262 /* stata.plist */; };
+		B78AD18B24480C2E003E2262 /* erl.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD13824480C2E003E2262 /* erl.plist */; };
+		B78AD18C24480C2E003E2262 /* torquescript.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD13924480C2E003E2262 /* torquescript.plist */; };
+		B78AD18D24480C2E003E2262 /* dylan.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD13A24480C2E003E2262 /* dylan.plist */; };
+		B78AD18E24480C2E003E2262 /* css.plist in Resources */ = {isa = PBXBuildFile; fileRef = B78AD13B24480C2E003E2262 /* css.plist */; };
+		B78AD1D924481784003E2262 /* DocumentBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B78AD1D624481784003E2262 /* DocumentBrowserViewController.m */; };
+		B78AD1DA24481784003E2262 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = B78AD1D724481784003E2262 /* Document.m */; };
+		B78AD1DB24481784003E2262 /* DocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B78AD1D824481784003E2262 /* DocumentViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B78AD0642447FF70003E2262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B78AD0402447FF6E003E2262 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B78AD0472447FF6E003E2262;
+			remoteInfo = OpenIDE;
+		};
+		B78AD06F2447FF70003E2262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B78AD0402447FF6E003E2262 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B78AD0472447FF6E003E2262;
+			remoteInfo = OpenIDE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B7255F8324499D9700951944 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B7255F952449A25300951944 /* libduktape.205.20500.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libduktape.205.20500.so; path = "../../Downloads/duktape-2.5.0/libduktape.205.20500.so"; sourceTree = "<group>"; };
+		B7255F972449A2E000951944 /* JavaScript.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JavaScript.m; sourceTree = "<group>"; };
+		B7255F992449A2E900951944 /* JavaScript.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JavaScript.h; sourceTree = "<group>"; };
+		B78AD0482447FF6E003E2262 /* Lai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78AD04B2447FF6E003E2262 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B78AD04C2447FF6E003E2262 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B78AD04E2447FF6E003E2262 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B78AD04F2447FF6E003E2262 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B78AD0512447FF6E003E2262 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B78AD0522447FF6E003E2262 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B78AD0552447FF6E003E2262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B78AD0572447FF6F003E2262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B78AD05A2447FF6F003E2262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B78AD05C2447FF6F003E2262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B78AD05D2447FF6F003E2262 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B78AD0632447FF70003E2262 /* LaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78AD0672447FF70003E2262 /* OpenIDETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenIDETests.m; sourceTree = "<group>"; };
+		B78AD0692447FF70003E2262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B78AD06E2447FF70003E2262 /* LaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78AD0722447FF70003E2262 /* OpenIDEUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenIDEUITests.m; sourceTree = "<group>"; };
+		B78AD0742447FF70003E2262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B78AD0802447FFA2003E2262 /* OpenIDE.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenIDE.entitlements; sourceTree = "<group>"; };
+		B78AD082244800FB003E2262 /* lcode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lcode.c; sourceTree = "<group>"; };
+		B78AD083244800FB003E2262 /* lzio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lzio.c; sourceTree = "<group>"; };
+		B78AD085244800FC003E2262 /* ltable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ltable.h; sourceTree = "<group>"; };
+		B78AD086244800FC003E2262 /* ldump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldump.c; sourceTree = "<group>"; };
+		B78AD087244800FC003E2262 /* lapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lapi.h; sourceTree = "<group>"; };
+		B78AD088244800FC003E2262 /* lzio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lzio.h; sourceTree = "<group>"; };
+		B78AD089244800FC003E2262 /* ldo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldo.c; sourceTree = "<group>"; };
+		B78AD08A244800FC003E2262 /* ldo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ldo.h; sourceTree = "<group>"; };
+		B78AD08B244800FC003E2262 /* lstrlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lstrlib.c; sourceTree = "<group>"; };
+		B78AD08C244800FC003E2262 /* lobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lobject.h; sourceTree = "<group>"; };
+		B78AD08D244800FC003E2262 /* liolib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = liolib.c; sourceTree = "<group>"; };
+		B78AD08E244800FC003E2262 /* ltablib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ltablib.c; sourceTree = "<group>"; };
+		B78AD08F244800FC003E2262 /* lcorolib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lcorolib.c; sourceTree = "<group>"; };
+		B78AD090244800FC003E2262 /* lobject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lobject.c; sourceTree = "<group>"; };
+		B78AD091244800FC003E2262 /* llimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = llimits.h; sourceTree = "<group>"; };
+		B78AD092244800FC003E2262 /* lopcodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lopcodes.h; sourceTree = "<group>"; };
+		B78AD093244800FC003E2262 /* lcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lcode.h; sourceTree = "<group>"; };
+		B78AD094244800FC003E2262 /* lvm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lvm.c; sourceTree = "<group>"; };
+		B78AD095244800FC003E2262 /* lprefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lprefix.h; sourceTree = "<group>"; };
+		B78AD096244800FC003E2262 /* lgc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lgc.h; sourceTree = "<group>"; };
+		B78AD097244800FC003E2262 /* ldebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ldebug.h; sourceTree = "<group>"; };
+		B78AD098244800FC003E2262 /* loadlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = loadlib.c; sourceTree = "<group>"; };
+		B78AD099244800FC003E2262 /* ltable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ltable.c; sourceTree = "<group>"; };
+		B78AD09A244800FC003E2262 /* lctype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lctype.c; sourceTree = "<group>"; };
+		B78AD09B244800FC003E2262 /* ldebug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldebug.c; sourceTree = "<group>"; };
+		B78AD09C244800FC003E2262 /* lauxlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lauxlib.c; sourceTree = "<group>"; };
+		B78AD09D244800FD003E2262 /* lundump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lundump.h; sourceTree = "<group>"; };
+		B78AD09E244800FD003E2262 /* lopcodes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lopcodes.c; sourceTree = "<group>"; };
+		B78AD09F244800FD003E2262 /* ltm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ltm.h; sourceTree = "<group>"; };
+		B78AD0A0244800FD003E2262 /* llex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = llex.h; sourceTree = "<group>"; };
+		B78AD0A1244800FD003E2262 /* lstate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lstate.h; sourceTree = "<group>"; };
+		B78AD0A2244800FD003E2262 /* lfunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lfunc.h; sourceTree = "<group>"; };
+		B78AD0A3244800FD003E2262 /* luaconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = luaconf.h; sourceTree = "<group>"; };
+		B78AD0A4244800FD003E2262 /* lmem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmem.c; sourceTree = "<group>"; };
+		B78AD0A5244800FD003E2262 /* lparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lparser.h; sourceTree = "<group>"; };
+		B78AD0A6244800FD003E2262 /* lmem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lmem.h; sourceTree = "<group>"; };
+		B78AD0A7244800FD003E2262 /* ldblib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldblib.c; sourceTree = "<group>"; };
+		B78AD0A8244800FD003E2262 /* lvm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lvm.h; sourceTree = "<group>"; };
+		B78AD0A9244800FD003E2262 /* lutf8lib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lutf8lib.c; sourceTree = "<group>"; };
+		B78AD0AA244800FD003E2262 /* lua.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua.h; sourceTree = "<group>"; };
+		B78AD0AB244800FE003E2262 /* loslib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = loslib.c; sourceTree = "<group>"; };
+		B78AD0AC244800FE003E2262 /* lstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lstring.h; sourceTree = "<group>"; };
+		B78AD0AD244800FE003E2262 /* lbaselib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lbaselib.m; sourceTree = "<group>"; };
+		B78AD0AE244800FE003E2262 /* lauxlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lauxlib.h; sourceTree = "<group>"; };
+		B78AD0AF244800FE003E2262 /* lctype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lctype.h; sourceTree = "<group>"; };
+		B78AD0B0244800FE003E2262 /* lundump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lundump.c; sourceTree = "<group>"; };
+		B78AD0B1244800FE003E2262 /* lfunc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfunc.c; sourceTree = "<group>"; };
+		B78AD0B2244800FE003E2262 /* lbitlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lbitlib.c; sourceTree = "<group>"; };
+		B78AD0B3244800FE003E2262 /* ltm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ltm.c; sourceTree = "<group>"; };
+		B78AD0B4244800FE003E2262 /* lgc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lgc.c; sourceTree = "<group>"; };
+		B78AD0B5244800FE003E2262 /* lparser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lparser.c; sourceTree = "<group>"; };
+		B78AD0B6244800FE003E2262 /* lstring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lstring.c; sourceTree = "<group>"; };
+		B78AD0B7244800FE003E2262 /* linit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = linit.c; sourceTree = "<group>"; };
+		B78AD0B8244800FF003E2262 /* lapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lapi.c; sourceTree = "<group>"; };
+		B78AD0B9244800FF003E2262 /* lstate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lstate.c; sourceTree = "<group>"; };
+		B78AD0BA244800FF003E2262 /* llex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = llex.c; sourceTree = "<group>"; };
+		B78AD0BB244800FF003E2262 /* lualib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lualib.h; sourceTree = "<group>"; };
+		B78AD0BC244800FF003E2262 /* lmathlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmathlib.c; sourceTree = "<group>"; };
+		B78AD0E024480927003E2262 /* luacore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = luacore.h; sourceTree = "<group>"; };
+		B78AD0E324480C22003E2262 /* RegexHighlightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegexHighlightView.m; path = "../../../../Downloads/RegexHighlightView-master/Regex Highlight View/RegexHighlightView.m"; sourceTree = "<group>"; };
+		B78AD0E424480C22003E2262 /* RegexHighlightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegexHighlightView.h; path = "../../../../Downloads/RegexHighlightView-master/Regex Highlight View/RegexHighlightView.h"; sourceTree = "<group>"; };
+		B78AD0E924480C2D003E2262 /* asm-mips.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "asm-mips.plist"; sourceTree = "<group>"; };
+		B78AD0EA24480C2D003E2262 /* metaslang.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = metaslang.plist; sourceTree = "<group>"; };
+		B78AD0EB24480C2D003E2262 /* vhdl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = vhdl.plist; sourceTree = "<group>"; };
+		B78AD0EC24480C2D003E2262 /* tcltk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tcltk.plist; sourceTree = "<group>"; };
+		B78AD0ED24480C2D003E2262 /* rhtml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = rhtml.plist; sourceTree = "<group>"; };
+		B78AD0EE24480C2D003E2262 /* lisp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lisp.plist; sourceTree = "<group>"; };
+		B78AD0EF24480C2D003E2262 /* sql.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sql.plist; sourceTree = "<group>"; };
+		B78AD0F024480C2D003E2262 /* none.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = none.plist; sourceTree = "<group>"; };
+		B78AD0F124480C2D003E2262 /* pdf.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pdf.plist; sourceTree = "<group>"; };
+		B78AD0F224480C2D003E2262 /* shell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shell.plist; sourceTree = "<group>"; };
+		B78AD0F324480C2D003E2262 /* cpp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cpp.plist; sourceTree = "<group>"; };
+		B78AD0F424480C2D003E2262 /* eiffel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = eiffel.plist; sourceTree = "<group>"; };
+		B78AD0F524480C2D003E2262 /* standard.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = standard.plist; sourceTree = "<group>"; };
+		B78AD0F624480C2D003E2262 /* fortran.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fortran.plist; sourceTree = "<group>"; };
+		B78AD0F724480C2D003E2262 /* xml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = xml.plist; sourceTree = "<group>"; };
+		B78AD0F824480C2D003E2262 /* d.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = d.plist; sourceTree = "<group>"; };
+		B78AD0F924480C2D003E2262 /* logtalk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = logtalk.plist; sourceTree = "<group>"; };
+		B78AD0FA24480C2D003E2262 /* idl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = idl.plist; sourceTree = "<group>"; };
+		B78AD0FB24480C2D003E2262 /* metapost.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = metapost.plist; sourceTree = "<group>"; };
+		B78AD0FC24480C2D003E2262 /* asp-vb.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "asp-vb.plist"; sourceTree = "<group>"; };
+		B78AD0FD24480C2E003E2262 /* header.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = header.plist; sourceTree = "<group>"; };
+		B78AD0FE24480C2E003E2262 /* eztpl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = eztpl.plist; sourceTree = "<group>"; };
+		B78AD0FF24480C2E003E2262 /* prolog.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = prolog.plist; sourceTree = "<group>"; };
+		B78AD10024480C2E003E2262 /* objectivecaml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = objectivecaml.plist; sourceTree = "<group>"; };
+		B78AD10124480C2E003E2262 /* apache.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apache.plist; sourceTree = "<group>"; };
+		B78AD10224480C2E003E2262 /* gedcom.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gedcom.plist; sourceTree = "<group>"; };
+		B78AD10324480C2E003E2262 /* nemerle.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = nemerle.plist; sourceTree = "<group>"; };
+		B78AD10424480C2E003E2262 /* batch.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = batch.plist; sourceTree = "<group>"; };
+		B78AD10524480C2E003E2262 /* asm-x86.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "asm-x86.plist"; sourceTree = "<group>"; };
+		B78AD10624480C2E003E2262 /* ruby.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ruby.plist; sourceTree = "<group>"; };
+		B78AD10724480C2E003E2262 /* matlab.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = matlab.plist; sourceTree = "<group>"; };
+		B78AD10824480C2E003E2262 /* latex.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = latex.plist; sourceTree = "<group>"; };
+		B78AD10924480C2E003E2262 /* actionscript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = actionscript.plist; sourceTree = "<group>"; };
+		B78AD10A24480C2E003E2262 /* postscript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = postscript.plist; sourceTree = "<group>"; };
+		B78AD10B24480C2E003E2262 /* vb.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = vb.plist; sourceTree = "<group>"; };
+		B78AD10C24480C2E003E2262 /* csound.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = csound.plist; sourceTree = "<group>"; };
+		B78AD10D24480C2E003E2262 /* scala.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scala.plist; sourceTree = "<group>"; };
+		B78AD10E24480C2E003E2262 /* plist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = plist.plist; sourceTree = "<group>"; };
+		B78AD10F24480C2E003E2262 /* java.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = java.plist; sourceTree = "<group>"; };
+		B78AD11024480C2E003E2262 /* actionscript3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = actionscript3.plist; sourceTree = "<group>"; };
+		B78AD11124480C2E003E2262 /* ampl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ampl.plist; sourceTree = "<group>"; };
+		B78AD11224480C2E003E2262 /* coldfusion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = coldfusion.plist; sourceTree = "<group>"; };
+		B78AD11324480C2E003E2262 /* sml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sml.plist; sourceTree = "<group>"; };
+		B78AD11424480C2E003E2262 /* c.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = c.plist; sourceTree = "<group>"; };
+		B78AD11524480C2E003E2262 /* mysql.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mysql.plist; sourceTree = "<group>"; };
+		B78AD11624480C2E003E2262 /* mel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mel.plist; sourceTree = "<group>"; };
+		B78AD11724480C2E003E2262 /* javascript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = javascript.plist; sourceTree = "<group>"; };
+		B78AD11824480C2E003E2262 /* udo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = udo.plist; sourceTree = "<group>"; };
+		B78AD11924480C2E003E2262 /* verilog.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = verilog.plist; sourceTree = "<group>"; };
+		B78AD11A24480C2E003E2262 /* lsl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lsl.plist; sourceTree = "<group>"; };
+		B78AD11B24480C2E003E2262 /* perl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = perl.plist; sourceTree = "<group>"; };
+		B78AD11C24480C2E003E2262 /* lua.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lua.plist; sourceTree = "<group>"; };
+		B78AD11D24480C2E003E2262 /* ox.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ox.plist; sourceTree = "<group>"; };
+		B78AD11E24480C2E003E2262 /* freefem.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = freefem.plist; sourceTree = "<group>"; };
+		B78AD11F24480C2E003E2262 /* pascal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pascal.plist; sourceTree = "<group>"; };
+		B78AD12024480C2E003E2262 /* lilypond.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lilypond.plist; sourceTree = "<group>"; };
+		B78AD12124480C2E003E2262 /* asp-js.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "asp-js.plist"; sourceTree = "<group>"; };
+		B78AD12224480C2E003E2262 /* haskell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = haskell.plist; sourceTree = "<group>"; };
+		B78AD12324480C2E003E2262 /* sgml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sgml.plist; sourceTree = "<group>"; };
+		B78AD12424480C2E003E2262 /* aspdotnet-cs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "aspdotnet-cs.plist"; sourceTree = "<group>"; };
+		B78AD12524480C2E003E2262 /* jsp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jsp.plist; sourceTree = "<group>"; };
+		B78AD12624480C2E003E2262 /* supercollider.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = supercollider.plist; sourceTree = "<group>"; };
+		B78AD12724480C2E003E2262 /* cobol.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cobol.plist; sourceTree = "<group>"; };
+		B78AD12824480C2E003E2262 /* ada.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ada.plist; sourceTree = "<group>"; };
+		B78AD12924480C2E003E2262 /* python.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = python.plist; sourceTree = "<group>"; };
+		B78AD12A24480C2E003E2262 /* r.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = r.plist; sourceTree = "<group>"; };
+		B78AD12B24480C2E003E2262 /* php.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = php.plist; sourceTree = "<group>"; };
+		B78AD12C24480C2E003E2262 /* awk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = awk.plist; sourceTree = "<group>"; };
+		B78AD12D24480C2E003E2262 /* objectivec.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = objectivec.plist; sourceTree = "<group>"; };
+		B78AD12E24480C2E003E2262 /* nrnhoc.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = nrnhoc.plist; sourceTree = "<group>"; };
+		B78AD12F24480C2E003E2262 /* javafx.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = javafx.plist; sourceTree = "<group>"; };
+		B78AD13024480C2E003E2262 /* applescript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = applescript.plist; sourceTree = "<group>"; };
+		B78AD13124480C2E003E2262 /* csharp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = csharp.plist; sourceTree = "<group>"; };
+		B78AD13224480C2E003E2262 /* html.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = html.plist; sourceTree = "<group>"; };
+		B78AD13324480C2E003E2262 /* template.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = template.plist; sourceTree = "<group>"; };
+		B78AD13424480C2E003E2262 /* active4d.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = active4d.plist; sourceTree = "<group>"; };
+		B78AD13524480C2E003E2262 /* aspdotnet-vb.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "aspdotnet-vb.plist"; sourceTree = "<group>"; };
+		B78AD13624480C2E003E2262 /* gnuassembler.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gnuassembler.plist; sourceTree = "<group>"; };
+		B78AD13724480C2E003E2262 /* stata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stata.plist; sourceTree = "<group>"; };
+		B78AD13824480C2E003E2262 /* erl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = erl.plist; sourceTree = "<group>"; };
+		B78AD13924480C2E003E2262 /* torquescript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = torquescript.plist; sourceTree = "<group>"; };
+		B78AD13A24480C2E003E2262 /* dylan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dylan.plist; sourceTree = "<group>"; };
+		B78AD13B24480C2E003E2262 /* css.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = css.plist; sourceTree = "<group>"; };
+		B78AD1D324481783003E2262 /* DocumentBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentBrowserViewController.h; sourceTree = "<group>"; };
+		B78AD1D424481783003E2262 /* Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		B78AD1D524481784003E2262 /* DocumentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentViewController.h; sourceTree = "<group>"; };
+		B78AD1D624481784003E2262 /* DocumentBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentBrowserViewController.m; sourceTree = "<group>"; };
+		B78AD1D724481784003E2262 /* Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		B78AD1D824481784003E2262 /* DocumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B78AD0452447FF6E003E2262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78AD0602447FF70003E2262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78AD06B2447FF70003E2262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7255F7B24499C7B00951944 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7255F952449A25300951944 /* libduktape.205.20500.so */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7255F8E2449A14300951944 /* Javascript */ = {
+			isa = PBXGroup;
+			children = (
+				B7255F972449A2E000951944 /* JavaScript.m */,
+				B7255F992449A2E900951944 /* JavaScript.h */,
+			);
+			path = Javascript;
+			sourceTree = "<group>";
+		};
+		B78AD03F2447FF6E003E2262 = {
+			isa = PBXGroup;
+			children = (
+				B78AD04A2447FF6E003E2262 /* OpenIDE */,
+				B78AD0662447FF70003E2262 /* OpenIDETests */,
+				B78AD0712447FF70003E2262 /* OpenIDEUITests */,
+				B78AD0492447FF6E003E2262 /* Products */,
+				B7255F7B24499C7B00951944 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B78AD0492447FF6E003E2262 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B78AD0482447FF6E003E2262 /* Lai.app */,
+				B78AD0632447FF70003E2262 /* LaiTests.xctest */,
+				B78AD06E2447FF70003E2262 /* LaiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B78AD04A2447FF6E003E2262 /* OpenIDE */ = {
+			isa = PBXGroup;
+			children = (
+				B78AD0E224480C1A003E2262 /* Regex Highliting View */,
+				B78AD0DF2448090E003E2262 /* languages */,
+				B78AD04B2447FF6E003E2262 /* AppDelegate.h */,
+				B78AD04C2447FF6E003E2262 /* AppDelegate.m */,
+				B78AD04E2447FF6E003E2262 /* SceneDelegate.h */,
+				B78AD04F2447FF6E003E2262 /* SceneDelegate.m */,
+				B78AD0512447FF6E003E2262 /* ViewController.h */,
+				B78AD0522447FF6E003E2262 /* ViewController.m */,
+				B78AD0542447FF6E003E2262 /* Main.storyboard */,
+				B78AD1D424481783003E2262 /* Document.h */,
+				B78AD1D724481784003E2262 /* Document.m */,
+				B78AD1D324481783003E2262 /* DocumentBrowserViewController.h */,
+				B78AD0802447FFA2003E2262 /* OpenIDE.entitlements */,
+				B78AD1D624481784003E2262 /* DocumentBrowserViewController.m */,
+				B78AD1D524481784003E2262 /* DocumentViewController.h */,
+				B78AD1D824481784003E2262 /* DocumentViewController.m */,
+				B78AD0572447FF6F003E2262 /* Assets.xcassets */,
+				B78AD0592447FF6F003E2262 /* LaunchScreen.storyboard */,
+				B78AD05C2447FF6F003E2262 /* Info.plist */,
+				B78AD05D2447FF6F003E2262 /* main.m */,
+			);
+			path = OpenIDE;
+			sourceTree = "<group>";
+		};
+		B78AD0662447FF70003E2262 /* OpenIDETests */ = {
+			isa = PBXGroup;
+			children = (
+				B78AD0672447FF70003E2262 /* OpenIDETests.m */,
+				B78AD0692447FF70003E2262 /* Info.plist */,
+			);
+			path = OpenIDETests;
+			sourceTree = "<group>";
+		};
+		B78AD0712447FF70003E2262 /* OpenIDEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B78AD0722447FF70003E2262 /* OpenIDEUITests.m */,
+				B78AD0742447FF70003E2262 /* Info.plist */,
+			);
+			path = OpenIDEUITests;
+			sourceTree = "<group>";
+		};
+		B78AD081244800F0003E2262 /* Lua */ = {
+			isa = PBXGroup;
+			children = (
+				B78AD0E024480927003E2262 /* luacore.h */,
+				B78AD0B8244800FF003E2262 /* lapi.c */,
+				B78AD087244800FC003E2262 /* lapi.h */,
+				B78AD09C244800FC003E2262 /* lauxlib.c */,
+				B78AD0AE244800FE003E2262 /* lauxlib.h */,
+				B78AD0AD244800FE003E2262 /* lbaselib.m */,
+				B78AD0B2244800FE003E2262 /* lbitlib.c */,
+				B78AD082244800FB003E2262 /* lcode.c */,
+				B78AD093244800FC003E2262 /* lcode.h */,
+				B78AD08F244800FC003E2262 /* lcorolib.c */,
+				B78AD09A244800FC003E2262 /* lctype.c */,
+				B78AD0AF244800FE003E2262 /* lctype.h */,
+				B78AD0A7244800FD003E2262 /* ldblib.c */,
+				B78AD09B244800FC003E2262 /* ldebug.c */,
+				B78AD097244800FC003E2262 /* ldebug.h */,
+				B78AD089244800FC003E2262 /* ldo.c */,
+				B78AD08A244800FC003E2262 /* ldo.h */,
+				B78AD086244800FC003E2262 /* ldump.c */,
+				B78AD0B1244800FE003E2262 /* lfunc.c */,
+				B78AD0A2244800FD003E2262 /* lfunc.h */,
+				B78AD0B4244800FE003E2262 /* lgc.c */,
+				B78AD096244800FC003E2262 /* lgc.h */,
+				B78AD0B7244800FE003E2262 /* linit.c */,
+				B78AD08D244800FC003E2262 /* liolib.c */,
+				B78AD0BA244800FF003E2262 /* llex.c */,
+				B78AD0A0244800FD003E2262 /* llex.h */,
+				B78AD091244800FC003E2262 /* llimits.h */,
+				B78AD0BC244800FF003E2262 /* lmathlib.c */,
+				B78AD0A4244800FD003E2262 /* lmem.c */,
+				B78AD0A6244800FD003E2262 /* lmem.h */,
+				B78AD098244800FC003E2262 /* loadlib.c */,
+				B78AD090244800FC003E2262 /* lobject.c */,
+				B78AD08C244800FC003E2262 /* lobject.h */,
+				B78AD09E244800FD003E2262 /* lopcodes.c */,
+				B78AD092244800FC003E2262 /* lopcodes.h */,
+				B78AD0AB244800FE003E2262 /* loslib.c */,
+				B78AD0B5244800FE003E2262 /* lparser.c */,
+				B78AD0A5244800FD003E2262 /* lparser.h */,
+				B78AD095244800FC003E2262 /* lprefix.h */,
+				B78AD0B9244800FF003E2262 /* lstate.c */,
+				B78AD0A1244800FD003E2262 /* lstate.h */,
+				B78AD0B6244800FE003E2262 /* lstring.c */,
+				B78AD0AC244800FE003E2262 /* lstring.h */,
+				B78AD08B244800FC003E2262 /* lstrlib.c */,
+				B78AD099244800FC003E2262 /* ltable.c */,
+				B78AD085244800FC003E2262 /* ltable.h */,
+				B78AD08E244800FC003E2262 /* ltablib.c */,
+				B78AD0B3244800FE003E2262 /* ltm.c */,
+				B78AD09F244800FD003E2262 /* ltm.h */,
+				B78AD0AA244800FD003E2262 /* lua.h */,
+				B78AD0A3244800FD003E2262 /* luaconf.h */,
+				B78AD0BB244800FF003E2262 /* lualib.h */,
+				B78AD0B0244800FE003E2262 /* lundump.c */,
+				B78AD09D244800FD003E2262 /* lundump.h */,
+				B78AD0A9244800FD003E2262 /* lutf8lib.c */,
+				B78AD094244800FC003E2262 /* lvm.c */,
+				B78AD0A8244800FD003E2262 /* lvm.h */,
+				B78AD083244800FB003E2262 /* lzio.c */,
+				B78AD088244800FC003E2262 /* lzio.h */,
+			);
+			path = Lua;
+			sourceTree = "<group>";
+		};
+		B78AD0DF2448090E003E2262 /* languages */ = {
+			isa = PBXGroup;
+			children = (
+				B7255F8E2449A14300951944 /* Javascript */,
+				B78AD081244800F0003E2262 /* Lua */,
+			);
+			path = languages;
+			sourceTree = "<group>";
+		};
+		B78AD0E224480C1A003E2262 /* Regex Highliting View */ = {
+			isa = PBXGroup;
+			children = (
+				B78AD0E424480C22003E2262 /* RegexHighlightView.h */,
+				B78AD0E324480C22003E2262 /* RegexHighlightView.m */,
+				B78AD0E824480C2D003E2262 /* Syntax Definitions */,
+			);
+			path = "Regex Highliting View";
+			sourceTree = "<group>";
+		};
+		B78AD0E824480C2D003E2262 /* Syntax Definitions */ = {
+			isa = PBXGroup;
+			children = (
+				B78AD0E924480C2D003E2262 /* asm-mips.plist */,
+				B78AD0EA24480C2D003E2262 /* metaslang.plist */,
+				B78AD0EB24480C2D003E2262 /* vhdl.plist */,
+				B78AD0EC24480C2D003E2262 /* tcltk.plist */,
+				B78AD0ED24480C2D003E2262 /* rhtml.plist */,
+				B78AD0EE24480C2D003E2262 /* lisp.plist */,
+				B78AD0EF24480C2D003E2262 /* sql.plist */,
+				B78AD0F024480C2D003E2262 /* none.plist */,
+				B78AD0F124480C2D003E2262 /* pdf.plist */,
+				B78AD0F224480C2D003E2262 /* shell.plist */,
+				B78AD0F324480C2D003E2262 /* cpp.plist */,
+				B78AD0F424480C2D003E2262 /* eiffel.plist */,
+				B78AD0F524480C2D003E2262 /* standard.plist */,
+				B78AD0F624480C2D003E2262 /* fortran.plist */,
+				B78AD0F724480C2D003E2262 /* xml.plist */,
+				B78AD0F824480C2D003E2262 /* d.plist */,
+				B78AD0F924480C2D003E2262 /* logtalk.plist */,
+				B78AD0FA24480C2D003E2262 /* idl.plist */,
+				B78AD0FB24480C2D003E2262 /* metapost.plist */,
+				B78AD0FC24480C2D003E2262 /* asp-vb.plist */,
+				B78AD0FD24480C2E003E2262 /* header.plist */,
+				B78AD0FE24480C2E003E2262 /* eztpl.plist */,
+				B78AD0FF24480C2E003E2262 /* prolog.plist */,
+				B78AD10024480C2E003E2262 /* objectivecaml.plist */,
+				B78AD10124480C2E003E2262 /* apache.plist */,
+				B78AD10224480C2E003E2262 /* gedcom.plist */,
+				B78AD10324480C2E003E2262 /* nemerle.plist */,
+				B78AD10424480C2E003E2262 /* batch.plist */,
+				B78AD10524480C2E003E2262 /* asm-x86.plist */,
+				B78AD10624480C2E003E2262 /* ruby.plist */,
+				B78AD10724480C2E003E2262 /* matlab.plist */,
+				B78AD10824480C2E003E2262 /* latex.plist */,
+				B78AD10924480C2E003E2262 /* actionscript.plist */,
+				B78AD10A24480C2E003E2262 /* postscript.plist */,
+				B78AD10B24480C2E003E2262 /* vb.plist */,
+				B78AD10C24480C2E003E2262 /* csound.plist */,
+				B78AD10D24480C2E003E2262 /* scala.plist */,
+				B78AD10E24480C2E003E2262 /* plist.plist */,
+				B78AD10F24480C2E003E2262 /* java.plist */,
+				B78AD11024480C2E003E2262 /* actionscript3.plist */,
+				B78AD11124480C2E003E2262 /* ampl.plist */,
+				B78AD11224480C2E003E2262 /* coldfusion.plist */,
+				B78AD11324480C2E003E2262 /* sml.plist */,
+				B78AD11424480C2E003E2262 /* c.plist */,
+				B78AD11524480C2E003E2262 /* mysql.plist */,
+				B78AD11624480C2E003E2262 /* mel.plist */,
+				B78AD11724480C2E003E2262 /* javascript.plist */,
+				B78AD11824480C2E003E2262 /* udo.plist */,
+				B78AD11924480C2E003E2262 /* verilog.plist */,
+				B78AD11A24480C2E003E2262 /* lsl.plist */,
+				B78AD11B24480C2E003E2262 /* perl.plist */,
+				B78AD11C24480C2E003E2262 /* lua.plist */,
+				B78AD11D24480C2E003E2262 /* ox.plist */,
+				B78AD11E24480C2E003E2262 /* freefem.plist */,
+				B78AD11F24480C2E003E2262 /* pascal.plist */,
+				B78AD12024480C2E003E2262 /* lilypond.plist */,
+				B78AD12124480C2E003E2262 /* asp-js.plist */,
+				B78AD12224480C2E003E2262 /* haskell.plist */,
+				B78AD12324480C2E003E2262 /* sgml.plist */,
+				B78AD12424480C2E003E2262 /* aspdotnet-cs.plist */,
+				B78AD12524480C2E003E2262 /* jsp.plist */,
+				B78AD12624480C2E003E2262 /* supercollider.plist */,
+				B78AD12724480C2E003E2262 /* cobol.plist */,
+				B78AD12824480C2E003E2262 /* ada.plist */,
+				B78AD12924480C2E003E2262 /* python.plist */,
+				B78AD12A24480C2E003E2262 /* r.plist */,
+				B78AD12B24480C2E003E2262 /* php.plist */,
+				B78AD12C24480C2E003E2262 /* awk.plist */,
+				B78AD12D24480C2E003E2262 /* objectivec.plist */,
+				B78AD12E24480C2E003E2262 /* nrnhoc.plist */,
+				B78AD12F24480C2E003E2262 /* javafx.plist */,
+				B78AD13024480C2E003E2262 /* applescript.plist */,
+				B78AD13124480C2E003E2262 /* csharp.plist */,
+				B78AD13224480C2E003E2262 /* html.plist */,
+				B78AD13324480C2E003E2262 /* template.plist */,
+				B78AD13424480C2E003E2262 /* active4d.plist */,
+				B78AD13524480C2E003E2262 /* aspdotnet-vb.plist */,
+				B78AD13624480C2E003E2262 /* gnuassembler.plist */,
+				B78AD13724480C2E003E2262 /* stata.plist */,
+				B78AD13824480C2E003E2262 /* erl.plist */,
+				B78AD13924480C2E003E2262 /* torquescript.plist */,
+				B78AD13A24480C2E003E2262 /* dylan.plist */,
+				B78AD13B24480C2E003E2262 /* css.plist */,
+			);
+			name = "Syntax Definitions";
+			path = "../../../../Downloads/RegexHighlightView-master/Regex Highlight View/Syntax Definitions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B78AD0472447FF6E003E2262 /* Lai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78AD0772447FF70003E2262 /* Build configuration list for PBXNativeTarget "Lai" */;
+			buildPhases = (
+				B78AD0442447FF6E003E2262 /* Sources */,
+				B78AD0452447FF6E003E2262 /* Frameworks */,
+				B78AD0462447FF6E003E2262 /* Resources */,
+				B7255F8324499D9700951944 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lai;
+			productName = OpenIDE;
+			productReference = B78AD0482447FF6E003E2262 /* Lai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B78AD0622447FF70003E2262 /* LaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78AD07A2447FF70003E2262 /* Build configuration list for PBXNativeTarget "LaiTests" */;
+			buildPhases = (
+				B78AD05F2447FF70003E2262 /* Sources */,
+				B78AD0602447FF70003E2262 /* Frameworks */,
+				B78AD0612447FF70003E2262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B78AD0652447FF70003E2262 /* PBXTargetDependency */,
+			);
+			name = LaiTests;
+			productName = OpenIDETests;
+			productReference = B78AD0632447FF70003E2262 /* LaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B78AD06D2447FF70003E2262 /* LaiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78AD07D2447FF70003E2262 /* Build configuration list for PBXNativeTarget "LaiUITests" */;
+			buildPhases = (
+				B78AD06A2447FF70003E2262 /* Sources */,
+				B78AD06B2447FF70003E2262 /* Frameworks */,
+				B78AD06C2447FF70003E2262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B78AD0702447FF70003E2262 /* PBXTargetDependency */,
+			);
+			name = LaiUITests;
+			productName = OpenIDEUITests;
+			productReference = B78AD06E2447FF70003E2262 /* LaiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B78AD0402447FF6E003E2262 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = machport;
+				TargetAttributes = {
+					B78AD0472447FF6E003E2262 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					B78AD0622447FF70003E2262 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = B78AD0472447FF6E003E2262;
+					};
+					B78AD06D2447FF70003E2262 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = B78AD0472447FF6E003E2262;
+					};
+				};
+			};
+			buildConfigurationList = B78AD0432447FF6E003E2262 /* Build configuration list for PBXProject "Lai" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B78AD03F2447FF6E003E2262;
+			productRefGroup = B78AD0492447FF6E003E2262 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B78AD0472447FF6E003E2262 /* Lai */,
+				B78AD0622447FF70003E2262 /* LaiTests */,
+				B78AD06D2447FF70003E2262 /* LaiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B78AD0462447FF6E003E2262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78AD14B24480C2E003E2262 /* d.plist in Resources */,
+				B78AD14F24480C2E003E2262 /* asp-vb.plist in Resources */,
+				B78AD18524480C2E003E2262 /* html.plist in Resources */,
+				B78AD18824480C2E003E2262 /* aspdotnet-vb.plist in Resources */,
+				B78AD15924480C2E003E2262 /* ruby.plist in Resources */,
+				B78AD17E24480C2E003E2262 /* php.plist in Resources */,
+				B78AD13D24480C2E003E2262 /* metaslang.plist in Resources */,
+				B78AD17424480C2E003E2262 /* asp-js.plist in Resources */,
+				B78AD18924480C2E003E2262 /* gnuassembler.plist in Resources */,
+				B78AD15524480C2E003E2262 /* gedcom.plist in Resources */,
+				B78AD16A24480C2E003E2262 /* javascript.plist in Resources */,
+				B78AD18024480C2E003E2262 /* objectivec.plist in Resources */,
+				B78AD15224480C2E003E2262 /* prolog.plist in Resources */,
+				B78AD18C24480C2E003E2262 /* torquescript.plist in Resources */,
+				B78AD15724480C2E003E2262 /* batch.plist in Resources */,
+				B78AD17324480C2E003E2262 /* lilypond.plist in Resources */,
+				B78AD05B2447FF6F003E2262 /* LaunchScreen.storyboard in Resources */,
+				B78AD14E24480C2E003E2262 /* metapost.plist in Resources */,
+				B78AD14A24480C2E003E2262 /* xml.plist in Resources */,
+				B78AD16C24480C2E003E2262 /* verilog.plist in Resources */,
+				B78AD16124480C2E003E2262 /* plist.plist in Resources */,
+				B78AD16824480C2E003E2262 /* mysql.plist in Resources */,
+				B78AD13E24480C2E003E2262 /* vhdl.plist in Resources */,
+				B78AD15024480C2E003E2262 /* header.plist in Resources */,
+				B78AD18E24480C2E003E2262 /* css.plist in Resources */,
+				B78AD17A24480C2E003E2262 /* cobol.plist in Resources */,
+				B78AD18A24480C2E003E2262 /* stata.plist in Resources */,
+				B78AD16724480C2E003E2262 /* c.plist in Resources */,
+				B78AD17C24480C2E003E2262 /* python.plist in Resources */,
+				B78AD14224480C2E003E2262 /* sql.plist in Resources */,
+				B78AD0582447FF6F003E2262 /* Assets.xcassets in Resources */,
+				B78AD16624480C2E003E2262 /* sml.plist in Resources */,
+				B78AD16524480C2E003E2262 /* coldfusion.plist in Resources */,
+				B78AD14424480C2E003E2262 /* pdf.plist in Resources */,
+				B78AD14024480C2E003E2262 /* rhtml.plist in Resources */,
+				B78AD18124480C2E003E2262 /* nrnhoc.plist in Resources */,
+				B78AD15B24480C2E003E2262 /* latex.plist in Resources */,
+				B78AD17B24480C2E003E2262 /* ada.plist in Resources */,
+				B78AD14924480C2E003E2262 /* fortran.plist in Resources */,
+				B78AD15E24480C2E003E2262 /* vb.plist in Resources */,
+				B78AD0562447FF6E003E2262 /* Main.storyboard in Resources */,
+				B78AD15124480C2E003E2262 /* eztpl.plist in Resources */,
+				B78AD16B24480C2E003E2262 /* udo.plist in Resources */,
+				B78AD14D24480C2E003E2262 /* idl.plist in Resources */,
+				B78AD17F24480C2E003E2262 /* awk.plist in Resources */,
+				B78AD18D24480C2E003E2262 /* dylan.plist in Resources */,
+				B78AD18424480C2E003E2262 /* csharp.plist in Resources */,
+				B78AD14624480C2E003E2262 /* cpp.plist in Resources */,
+				B78AD17D24480C2E003E2262 /* r.plist in Resources */,
+				B78AD14824480C2E003E2262 /* standard.plist in Resources */,
+				B78AD15D24480C2E003E2262 /* postscript.plist in Resources */,
+				B78AD17724480C2E003E2262 /* aspdotnet-cs.plist in Resources */,
+				B78AD14C24480C2E003E2262 /* logtalk.plist in Resources */,
+				B78AD17124480C2E003E2262 /* freefem.plist in Resources */,
+				B78AD16924480C2E003E2262 /* mel.plist in Resources */,
+				B78AD15624480C2E003E2262 /* nemerle.plist in Resources */,
+				B78AD13F24480C2E003E2262 /* tcltk.plist in Resources */,
+				B78AD14324480C2E003E2262 /* none.plist in Resources */,
+				B78AD18624480C2E003E2262 /* template.plist in Resources */,
+				B78AD14524480C2E003E2262 /* shell.plist in Resources */,
+				B78AD16E24480C2E003E2262 /* perl.plist in Resources */,
+				B78AD15A24480C2E003E2262 /* matlab.plist in Resources */,
+				B78AD17524480C2E003E2262 /* haskell.plist in Resources */,
+				B78AD18224480C2E003E2262 /* javafx.plist in Resources */,
+				B78AD18724480C2E003E2262 /* active4d.plist in Resources */,
+				B78AD14124480C2E003E2262 /* lisp.plist in Resources */,
+				B78AD15824480C2E003E2262 /* asm-x86.plist in Resources */,
+				B78AD17824480C2E003E2262 /* jsp.plist in Resources */,
+				B78AD18B24480C2E003E2262 /* erl.plist in Resources */,
+				B78AD16424480C2E003E2262 /* ampl.plist in Resources */,
+				B78AD16224480C2E003E2262 /* java.plist in Resources */,
+				B78AD16F24480C2E003E2262 /* lua.plist in Resources */,
+				B78AD16D24480C2E003E2262 /* lsl.plist in Resources */,
+				B78AD16324480C2E003E2262 /* actionscript3.plist in Resources */,
+				B78AD16024480C2E003E2262 /* scala.plist in Resources */,
+				B78AD17624480C2E003E2262 /* sgml.plist in Resources */,
+				B78AD17024480C2E003E2262 /* ox.plist in Resources */,
+				B78AD15C24480C2E003E2262 /* actionscript.plist in Resources */,
+				B78AD15424480C2E003E2262 /* apache.plist in Resources */,
+				B78AD15F24480C2E003E2262 /* csound.plist in Resources */,
+				B78AD17224480C2E003E2262 /* pascal.plist in Resources */,
+				B78AD17924480C2E003E2262 /* supercollider.plist in Resources */,
+				B78AD13C24480C2E003E2262 /* asm-mips.plist in Resources */,
+				B78AD18324480C2E003E2262 /* applescript.plist in Resources */,
+				B78AD15324480C2E003E2262 /* objectivecaml.plist in Resources */,
+				B78AD14724480C2E003E2262 /* eiffel.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78AD0612447FF70003E2262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78AD06C2447FF70003E2262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B78AD0442447FF6E003E2262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78AD1DB24481784003E2262 /* DocumentViewController.m in Sources */,
+				B78AD0532447FF6E003E2262 /* ViewController.m in Sources */,
+				B78AD0E524480C22003E2262 /* RegexHighlightView.m in Sources */,
+				B78AD0CF244800FF003E2262 /* ldblib.c in Sources */,
+				B78AD0C8244800FF003E2262 /* loadlib.c in Sources */,
+				B78AD0C9244800FF003E2262 /* ltable.c in Sources */,
+				B78AD0CC244800FF003E2262 /* lauxlib.c in Sources */,
+				B78AD0C6244800FF003E2262 /* lobject.c in Sources */,
+				B78AD0C2244800FF003E2262 /* lstrlib.c in Sources */,
+				B78AD1D924481784003E2262 /* DocumentBrowserViewController.m in Sources */,
+				B78AD0C0244800FF003E2262 /* ldump.c in Sources */,
+				B78AD0D6244800FF003E2262 /* ltm.c in Sources */,
+				B78AD0D2244800FF003E2262 /* lbaselib.m in Sources */,
+				B78AD0C4244800FF003E2262 /* ltablib.c in Sources */,
+				B78AD0CB244800FF003E2262 /* ldebug.c in Sources */,
+				B78AD04D2447FF6E003E2262 /* AppDelegate.m in Sources */,
+				B78AD0DC244800FF003E2262 /* lstate.c in Sources */,
+				B78AD0D3244800FF003E2262 /* lundump.c in Sources */,
+				B78AD05E2447FF6F003E2262 /* main.m in Sources */,
+				B78AD0D0244800FF003E2262 /* lutf8lib.c in Sources */,
+				B78AD0D4244800FF003E2262 /* lfunc.c in Sources */,
+				B78AD0D7244800FF003E2262 /* lgc.c in Sources */,
+				B78AD0D8244800FF003E2262 /* lparser.c in Sources */,
+				B78AD0DA244800FF003E2262 /* linit.c in Sources */,
+				B78AD0502447FF6E003E2262 /* SceneDelegate.m in Sources */,
+				B78AD0C3244800FF003E2262 /* liolib.c in Sources */,
+				B78AD0CE244800FF003E2262 /* lmem.c in Sources */,
+				B78AD0C1244800FF003E2262 /* ldo.c in Sources */,
+				B78AD0BD244800FF003E2262 /* lcode.c in Sources */,
+				B78AD1DA24481784003E2262 /* Document.m in Sources */,
+				B7255F982449A2E000951944 /* JavaScript.m in Sources */,
+				B78AD0D9244800FF003E2262 /* lstring.c in Sources */,
+				B78AD0D1244800FF003E2262 /* loslib.c in Sources */,
+				B78AD0C7244800FF003E2262 /* lvm.c in Sources */,
+				B78AD0BE244800FF003E2262 /* lzio.c in Sources */,
+				B78AD0DB244800FF003E2262 /* lapi.c in Sources */,
+				B78AD0DD244800FF003E2262 /* llex.c in Sources */,
+				B78AD0D5244800FF003E2262 /* lbitlib.c in Sources */,
+				B78AD0DE244800FF003E2262 /* lmathlib.c in Sources */,
+				B78AD0CA244800FF003E2262 /* lctype.c in Sources */,
+				B78AD0CD244800FF003E2262 /* lopcodes.c in Sources */,
+				B78AD0C5244800FF003E2262 /* lcorolib.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78AD05F2447FF70003E2262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78AD0682447FF70003E2262 /* OpenIDETests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78AD06A2447FF70003E2262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78AD0732447FF70003E2262 /* OpenIDEUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B78AD0652447FF70003E2262 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B78AD0472447FF6E003E2262 /* Lai */;
+			targetProxy = B78AD0642447FF70003E2262 /* PBXContainerItemProxy */;
+		};
+		B78AD0702447FF70003E2262 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B78AD0472447FF6E003E2262 /* Lai */;
+			targetProxy = B78AD06F2447FF70003E2262 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B78AD0542447FF6E003E2262 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B78AD0552447FF6E003E2262 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B78AD0592447FF6F003E2262 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B78AD05A2447FF6F003E2262 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B78AD0752447FF70003E2262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B78AD0762447FF70003E2262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B78AD0782447FF70003E2262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OpenIDE/OpenIDE.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52YY986PZS;
+				INFOPLIST_FILE = OpenIDE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.machport.OpenIDE;
+				PRODUCT_NAME = Lai;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B78AD0792447FF70003E2262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OpenIDE/OpenIDE.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52YY986PZS;
+				INFOPLIST_FILE = OpenIDE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.machport.OpenIDE;
+				PRODUCT_NAME = Lai;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		B78AD07B2447FF70003E2262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52YY986PZS;
+				INFOPLIST_FILE = OpenIDETests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.machport.OpenIDETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lai.app/Lai";
+			};
+			name = Debug;
+		};
+		B78AD07C2447FF70003E2262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52YY986PZS;
+				INFOPLIST_FILE = OpenIDETests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.machport.OpenIDETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lai.app/Lai";
+			};
+			name = Release;
+		};
+		B78AD07E2447FF70003E2262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52YY986PZS;
+				INFOPLIST_FILE = OpenIDEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.machport.OpenIDEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenIDE;
+			};
+			name = Debug;
+		};
+		B78AD07F2447FF70003E2262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52YY986PZS;
+				INFOPLIST_FILE = OpenIDEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.machport.OpenIDEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenIDE;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B78AD0432447FF6E003E2262 /* Build configuration list for PBXProject "Lai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78AD0752447FF70003E2262 /* Debug */,
+				B78AD0762447FF70003E2262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B78AD0772447FF70003E2262 /* Build configuration list for PBXNativeTarget "Lai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78AD0782447FF70003E2262 /* Debug */,
+				B78AD0792447FF70003E2262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B78AD07A2447FF70003E2262 /* Build configuration list for PBXNativeTarget "LaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78AD07B2447FF70003E2262 /* Debug */,
+				B78AD07C2447FF70003E2262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B78AD07D2447FF70003E2262 /* Build configuration list for PBXNativeTarget "LaiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78AD07E2447FF70003E2262 /* Debug */,
+				B78AD07F2447FF70003E2262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B78AD0402447FF6E003E2262 /* Project object */;
+}
